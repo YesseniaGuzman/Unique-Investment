@@ -7,50 +7,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    :root{
-  --bg:#F5F1ED;
-  --bg2:#E8DCD6;
-  --bg3:#FFFFFF;
+   :root{
+  --bg:#0c0a14;
+  --bg2:#100e1c;
+  --bg3:#16132a;
 
-  --white:#22223B;
-  --purple:#4A4E69;
-  --purple2:#6B6F8F;
+  --white:#f0eef8;
+  --gold:#c49a3c;
+  --gold2:#e2bd72;
 
-  --gray:#6D6875;
-  --light:#FFFFFF;
-  --card:#FFFFFF;
+  --purple:#c5b8f0;
+  --purple2:#ddd5fa;
+  --purple-dim:#7b6faa;
 
-  --accent:#C2ACA2;
-  --accent-soft:#EDE0D4;
+  --gray:#9b97b0;
+  --light:#1e1a30;
+  --card:#130f22;
 }
-    body {
-  background: var(--bg);
-  color: var(--white);
-}
-
-.hero-right {
-  background: linear-gradient(135deg, #4A4E69, #6B6F8F);
-  color: white;
-}
-
-.service-card {
-  background: white;
-  border-radius: 15px;
-}
-
-.section-title {
-  color: #22223B;
-}
-
-.btn-wa {
-  background: #4A4E69;
-  color: white;
-  border-radius: 10px;
-}
-
-.btn-wa:hover {
-  background: #6B6F8F;
-}
+    
     html{scroll-behavior:smooth}
     body{background:var(--bg);color:var(--white);font-family:'DM Sans',sans-serif;font-weight:300;overflow-x:hidden}
 
@@ -93,20 +67,30 @@
   <a href="https://www.instagram.com/reel/DDBWz0POQes/" target="_blank" 
      style="display:flex;align-items:center;gap:10px;text-decoration:none;">
 
+   <div style="position:absolute; bottom:10%; left:10%; z-index:10;">
+  <a href="https://www.instagram.com/reel/DDBWz0POQes/" target="_blank"
+     style="text-decoration:none; display:flex; align-items:center; gap:10px;">
+
     <div style="
-      width:50px;
-      height:50px;
-      background:#4A4E69;
+      width:60px;
+      height:60px;
       border-radius:50%;
+      background:rgba(196,154,60,0.15);
+      border:1px solid rgba(196,154,60,0.5);
       display:flex;
       align-items:center;
       justify-content:center;
-      box-shadow:0 4px 15px rgba(0,0,0,0.3);
+      backdrop-filter:blur(6px);
     ">
-      ▶
+      <span style="color:#e2bd72; font-size:22px;">▶</span>
     </div>
 
-    <span style="color:white; font-size:12px; letter-spacing:1px;">
+    <span style="
+      color:#e2bd72;
+      font-size:12px;
+      letter-spacing:2px;
+      text-transform:uppercase;
+    ">
       Ver video
     </span>
 
